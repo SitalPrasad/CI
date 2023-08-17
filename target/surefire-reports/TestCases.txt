@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestCases
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 3.327 s <<< FAILURE! - in TestCases
+CICDTests(TestCases)  Time elapsed: 3.18 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2QICDJTA', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0040A813+48355]
+	(No symbol) [0x0039C4B1]
+	(No symbol) [0x002A5358]
+	(No symbol) [0x002C61AC]
+	(No symbol) [0x002C1EF3]
+	(No symbol) [0x002C0579]
+	(No symbol) [0x002F0C55]
+	(No symbol) [0x002F093C]
+	(No symbol) [0x002EA536]
+	(No symbol) [0x002C82DC]
+	(No symbol) [0x002C93DD]
+	GetHandleVerifier [0x0066AABD+2539405]
+	GetHandleVerifier [0x006AA78F+2800735]
+	GetHandleVerifier [0x006A456C+2775612]
+	GetHandleVerifier [0x004951E0+616112]
+	(No symbol) [0x003A5F8C]
+	(No symbol) [0x003A2328]
+	(No symbol) [0x003A240B]
+	(No symbol) [0x00394FF7]
+	BaseThreadInitThunk [0x764400C9+25]
+	RtlGetAppContainerNamedObjectPath [0x773A7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x773A7AEE+238]
+
+	at TestCases.CICDTests(TestCases.java:18)
+
